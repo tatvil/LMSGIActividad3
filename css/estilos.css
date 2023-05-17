@@ -5,3 +5,11 @@ ol{
 hr{
     visibility: hidden;
 }
+
+h1{
+	color: red;
+}
+
+h2{
+	color: blue
+}
