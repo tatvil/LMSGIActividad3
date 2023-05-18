@@ -1,19 +1,52 @@
-empresa {
-	color: #006064;
-	font-family: "Comic sans ms";
-	font-size: 100px;
+* {
+    font-family: Gotham, Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    --color-oscuro:#0054a4;
+    --color-medio: #007dc3;
+    --color-claro: #a4d7f4;
+    --color-secundario: #e11b22;
+    --color-secundario-claro: #e1abb2;
+}
+
+h1 {
+	background-color: var(--color-oscuro);
+	color: var(--color-claro);
+	font-size: 50px;
 	display: block;
     text-align: center;
+	padding: 1%;
 }
 
-profesores {
-	width: 250px;
-	display: inline-block;
+#telefono-empresa {
+	background-color: var(--color-oscuro);
+	color: var(--color-claro);
+	font-size: 25px;
+	display: block;
+    text-align: center;
+	padding-bottom: 1%;
 }
 
-/*
-id {
-	width: 250px;
-	display: inline-block;
+h2 {
+	background-color: var(--color-claro);
+	color: var(--color-medio);
+	font-size: 30px;
+	display: block;
+    text-align: center;
+	padding: 1%;
 }
-*/
+
+table {
+	width: 98%;
+	margin: 1%;
+	border: 2.5px solid var(--color-oscuro);
+}
+
+th {
+	background-color: var(--color-claro);
+}
+
+td {
+	border-right: 1px solid var(--color-claro);
+	text-align: center;
+}
