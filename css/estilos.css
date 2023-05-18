@@ -1,15 +1,19 @@
-ol{
-    list-style: none;
+empresa {
+	color: #006064;
+	font-family: "Comic sans ms";
+	font-size: 100px;
+	display: block;
+    text-align: center;
 }
 
-hr{
-    visibility: hidden;
+profesores {
+	width: 250px;
+	display: inline-block;
 }
 
-h1{
-	color: red;
+/*
+id {
+	width: 250px;
+	display: inline-block;
 }
-
-h2{
-	color: blue
-}
+*/

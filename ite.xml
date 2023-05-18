@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="ite.xsl" ?>
+<?xml-stylesheet type="text/xsl" href="ite.xsl"?>
+<?xml-stylesheet type="text/css" href="css/estilos.css"?>
+
 
 <ite nombre="Instituto Tecnológico Edix" web="https://institutotecnologico.edix.com" >
     <empresa>Proeduca</empresa>
@@ -34,17 +36,17 @@
         <ciclo id="ASIR">
             <nombre>Administración de Sistemas Informáticos en Red</nombre>
             <grado>Superior</grado>
-            <decretoTitulo año="2009" />
+            <decretoTitulo ano="2009" />
         </ciclo>
         <ciclo id="DAW">
             <nombre>Desarrollo de Aplicaciones Web</nombre>
             <grado>Superior</grado>
-            <decretoTitulo año="2010" />
+            <decretoTitulo ano="2010" />
         </ciclo>
         <ciclo id="DAM">
             <nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
             <grado>Superior</grado>
-            <decretoTitulo año="2010" />
+            <decretoTitulo ano="2010" />
         </ciclo>
     </ciclos>
 </ite>
