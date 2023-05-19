@@ -13,6 +13,16 @@
 				<p class="datos-empresa"><a><xsl:attribute name='href'><xsl:value-of select='ite/@web'/></xsl:attribute><xsl:value-of select="ite/@web"/></a></p>
 				<p class="datos-empresa"><a><xsl:attribute name='href'>tel:<xsl:value-of select='ite/telefono'/></xsl:attribute><xsl:value-of select="ite/telefono"/></a></p>
 
+				<h2>Consejo escolar</h2>
+				<ul>
+					<xsl:for-each select="ite/director">
+						<li><b>Director: </b> <xsl:value-of select="nombre"/> (Despacho: <xsl:value-of select="despacho"/>)</li>
+					</xsl:for-each>
+					<xsl:for-each select="ite/jefe_estudios">
+						<li><b>Jefe de estudios: </b> <xsl:value-of select="nombre"/> (Despacho: <xsl:value-of select="despacho"/>)</li>
+					</xsl:for-each>
+				</ul>
+
 				<h2>Profesores</h2>
 				<table>
 					<tr>
@@ -30,6 +40,11 @@
 						</tr>
 					</xsl:for-each>
 				</table>
+				<ol>
+					<xsl:for-each select="ite/profesores/profesor">
+						<li><xsl:value-of select="nombre"/></li>
+					</xsl:for-each>
+				</ol>
 
 				<h2>Ciclos formativos</h2>
 				<table>

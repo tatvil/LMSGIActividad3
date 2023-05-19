@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="actividad3.xsl"?>
+<?xml-stylesheet type="text/css" href="css/estilos.css"?>
+
+<ite nombre="IES El Burgo Ignacio Echeverria" web="https://site.educa.madrid.org/ies.burgoiecheverria.lasrozas/" >
+    <empresa>Comunidad de Madrid</empresa>
+    <telefono>+34 91 639 36 00</telefono>
+    <profesores>
+        <profesor>
+            <id>1</id>
+            <nombre>Eduardo Burrieza Marques</nombre>
+        </profesor>
+        <profesor>
+            <id>2</id>
+            <nombre>Carmen Méndez Martín</nombre>
+        </profesor>
+        <profesor>
+            <id>3</id>
+            <nombre>Marta Morán Bayón</nombre>
+        </profesor>
+        <profesor>
+            <id>4</id>
+            <nombre>Marusela Saras Pazos</nombre>
+        </profesor>
+    </profesores>
+    <director>
+        <nombre>Ana Isabel Crespo Cuenca</nombre>
+        <despacho>Numero 1</despacho>
+    </director>
+    <jefe_estudios>
+        <nombre>Ana Isabel Gómez Huerta</nombre>
+        <despacho>Numero 2</despacho>
+    </jefe_estudios>
+    <jefe_estudios>
+        <nombre>Nieves Bustamante Pascual</nombre>
+        <despacho>Numero 2</despacho>
+    </jefe_estudios>
+    <jefe_estudios>
+        <nombre>Marta Portela Fernández</nombre>
+        <despacho>Numero 2</despacho>
+    </jefe_estudios>
+    <ciclos>
+        <ciclo id="ESO">
+            <nombre>Enseñanza Secundaria Obligatoria</nombre>
+            <grado>Básico</grado>
+            <decretoTitulo ano="2009" />
+        </ciclo>
+            <ciclo id="Bach">
+            <nombre>Bachillerato</nombre>
+            <grado>Medio</grado>
+            <decretoTitulo ano="2010" />
+        </ciclo>
+        <ciclo id="FPDUAL">
+            <nombre>FP DUAL Especialidad en Informática y comunicaciones</nombre>
+            <grado>Básico</grado>
+            <decretoTitulo ano="2010" />
+        </ciclo>
+        <ciclo id="FPDUAL">
+            <nombre>Técnico en Instalaciones de Telecomunicaciones</nombre>
+            <grado>Medio</grado>
+            <decretoTitulo ano="2010" />
+        </ciclo>
+        <ciclo id="STI">
+            <nombre>Sistemas de Telecomunicaciones e Informáticos</nombre>
+            <grado>Superior</grado>
+            <decretoTitulo ano="2010" />
+        </ciclo>
+    </ciclos>
+</ite>

@@ -43,6 +43,7 @@ table {
 	width: 98%;
 	margin: 1%;
 	border: 2.5px solid var(--color-oscuro);
+	border-radius: 10px;
 }
 
 th {
@@ -52,4 +53,11 @@ th {
 td {
 	border-right: 1px solid var(--color-claro);
 	text-align: center;
+}
+
+ul, ol{
+	text-align: center;
+	padding: 1%;
+	width: 60%;
+	margin: auto;
 }
