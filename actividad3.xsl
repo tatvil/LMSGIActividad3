@@ -71,6 +71,10 @@
 						</tr>
 					</xsl:for-each>
 				</table>
+				<form action="procesarPeticion.jsp" method="get">
+					Subscribete a nuestra newletter <input type="email" name="email" placeholder="email"/>
+					<input class="boton" type="submit" value="Enviar"/>
+				</form>
 			</body>
 		</html>
 	</xsl:template>
