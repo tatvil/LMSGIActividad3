@@ -9,10 +9,9 @@
 				<link rel="stylesheet" href="css/estilos.css" />
 			</head>
 			<body>
-				<h1>
-					Empresa: <xsl:value-of select="ite/empresa"/>
-				</h1>
-				<p id="telefono-empresa">Teléfono: <xsl:value-of select="ite/telefono"/></p>
+				<h1><xsl:value-of select="ite/@nombre"/></h1>
+				<p id="subtitulo"><xsl:value-of select="ite/empresa"/></p>
+				<p id="telefono-empresa">Telefono: <a><xsl:attribute name='href'>tel:<xsl:value-of select='ite/telefono'/></xsl:attribute><xsl:value-of select="ite/telefono"/></a></p>
 
 				<h2>Profesores</h2>
 				<table>
@@ -52,7 +51,7 @@
 								<xsl:value-of select="grado"/>
 							</td>
 							<td>
-								<xsl:value-of select="decretoTitulo/@año"/>
+								<xsl:value-of select="decretoTitulo/@ano"/>
 							</td>
 						</tr>
 					</xsl:for-each>

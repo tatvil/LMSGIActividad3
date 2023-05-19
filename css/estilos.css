@@ -18,7 +18,7 @@ h1 {
 	padding: 1%;
 }
 
-#telefono-empresa {
+#telefono-empresa, #subtitulo {
 	background-color: var(--color-oscuro);
 	color: var(--color-claro);
 	font-size: 25px;
@@ -27,6 +27,14 @@ h1 {
 	padding-bottom: 1%;
 }
 
+#telefono-empresa.a {
+	background-color: var(--color-oscuro);
+	color: var(--color-medio);
+	font-size: 25px;
+	display: block;
+    text-align: center;
+	padding-bottom: 1%;
+}
 h2 {
 	background-color: var(--color-claro);
 	color: var(--color-medio);
