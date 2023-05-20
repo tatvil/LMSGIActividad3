@@ -11,7 +11,7 @@
 			<body>
 				<h1><xsl:value-of select="ite/@nombre"/> (<xsl:value-of select="ite/empresa"/>)</h1>
 
-<!-- 2 ENLACES: Me ha costado un poco ver como seponian, pero al final lo he conseguido (¡¡Gracias internet!!) -->
+<!-- 2 ENLACES: Me ha costado un poco ver como se ponian, pero al final lo he conseguido (¡¡Gracias internet!!) -->
 				<p class="datos-empresa"><a><xsl:attribute name='href'><xsl:value-of select='ite/@web'/></xsl:attribute><xsl:value-of select="ite/@web"/></a></p>
 				<p class="datos-empresa"><a><xsl:attribute name='href'>tel:<xsl:value-of select='ite/telefono'/></xsl:attribute><xsl:value-of select="ite/telefono"/></a></p>
 
